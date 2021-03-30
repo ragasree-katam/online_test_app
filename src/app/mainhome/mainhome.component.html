@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    </head>
+<body>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Online Quiz</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" routerLink="/quiz">Quiz</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container col text-center">
+    <div class="jumbotron" style="background-image: url(https://i.pinimg.com/originals/4c/b9/8f/4cb98f619c091fe352f71e1fd42401ec.jpg); ">
+      <h1>Welcome To Quiz</h1>
+      <p>The more often you play quizzes the better you get at them and the more you know. 
+          Looking back over online quiz records and seeing how much they've improved, gives a student the confidence to know they are progressing. 
+          So, yes, quizzes do build confidence.</p>
+    </div>
+  </div>
+  <div class="col text-center">
+    <button type="button" class="btn btn-primary btn-lg" (click)="start();">Start Quiz</button>
+  </div> 
+  <script src="app\quiz\quiz.component.html"></script> 
+  <p><br><br><br><br><br><br></p>
+  <div class="footer" style="background-color: rgba(0, 0, 0, 0.2);">
+      <footer class="sticky-top bg-dark text-center text-white">
+      <div class="text-center p-3" >
+      © 2021 Copyright: ragasree
+      <a class="text-white" href="https://mdbootstrap.com/"> QUIZ PROGRAM</a>
+      </div>
+      </footer>
+  </div>
+</body>
+</html>
+

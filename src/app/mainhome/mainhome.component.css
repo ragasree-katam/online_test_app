@@ -1,0 +1,17 @@
+
+.footer {
+  position:static;
+  
+  left: 39;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.header {
+
+    width: 100%;
+    margin-left: 0;
+  }
+
+
